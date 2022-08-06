@@ -40,6 +40,14 @@ public class Operadores {
 		System.out.println(resultado = 60*++numero);
 		
 		System.out.println(numero);
+		
+		
+		//Operador ternário
+		boolean vaiChover = true;
+		
+		String acao = vaiChover ? "então vai dar stream em casa" : "então vai dar praia";
+		
+		System.out.println(acao);
 	}
 
 }
